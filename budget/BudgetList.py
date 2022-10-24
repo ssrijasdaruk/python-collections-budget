@@ -1,5 +1,5 @@
-from . import Expense
-import mathlib.pyplot as plt
+import Expense
+import matplotlib.pyplot as plt
 
 
 class BudgetList():
