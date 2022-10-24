@@ -1,6 +1,6 @@
 from . import Expense
 
-class BudgetList():    
+class BudgetList():
     def __init__(self, budget):
         self.budget = budget
         self.sum_expenses = 0
@@ -27,7 +27,7 @@ def main():
     for expense in expenses.list:
         myBudgetList.append(expense.amount)
 
-    print('The count of all expenses: {0}'.format(str(len(myBudgetList))))
+    print('The count of all expenses: ' + str(len(myBudgetList)))
 
 if __name__ == '__main__':
     main()
