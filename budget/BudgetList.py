@@ -1,7 +1,6 @@
 from . import Expense
 
-class BudgetList():
-    """docstring fs BudgetList.
+class BudgetList():    
     def __init__(self, budget):
         self.budget = budget
         self.sum_expenses = 0
