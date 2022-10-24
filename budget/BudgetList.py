@@ -42,7 +42,7 @@ def main():
     print('The count of all expenses: ' + str(len(myBudgetList)))
 
     for entry in myBudgetList:
-        print(str(entry))
+        print(entry)
 
     fig, ax = plt.subplots()
     labels = ['Expenses', 'Overages', 'Budget']
